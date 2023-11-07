@@ -68,7 +68,7 @@
                 <a
                   class="nav-link text-white active"
                   aria-current="page"
-                  href="index.html"
+                  href="#/"
                   >Home</a
                 >
               </li>
@@ -96,7 +96,7 @@
                 <a class="nav-link text-white" href="#moni">Monitoring</a>
               </li>
               <li class="nav-item mx-lg-2">
-                <a class="nav-link text-white" href="#moni">Components</a>
+                <a class="nav-link text-white" href="#comp">Components</a>
               </li>
             </ul>
           </div>
@@ -223,7 +223,32 @@
             </div>
           </div>
 
-          <div>
+          <div class="container d-flex">
+            <div class="card w-50 m-md-3 shadow-lg border-0 text-center">
+              <div class="card-body">
+                <h3 class="card-title text-primary fw-bold">Alert</h3>
+                <iframe
+                  width="450"
+                  height="260"
+                  style="border: 1px solid #cccccc"
+                  src="https://thingspeak.com/channels/2249925/widgets/742279"
+                ></iframe>
+              </div>
+            </div>
+            <div class="card w-50 m-md-3 shadow-lg border-0 text-center">
+              <div class="card-body">
+                <h3 class="card-title text-primary fw-bold">Normal</h3>
+                <iframe
+                  width="450"
+                  height="260"
+                  style="border: 1px solid #cccccc"
+                  src="https://thingspeak.com/channels/2249925/widgets/742284"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div id="comp">
             <h3 class="card-title text-primary fw-bold text-center">
               Components Used
             </h3>
